@@ -189,6 +189,7 @@ namespace CommentMicroService_SocialWall.DataAccess
                     command.ExecuteNonQuery();
 
                     return comment;
+                    //da vrati objekat u POSTMENU (id 0, nemam get za ID)
                     //return GetComment(comment.Id);
                 }
             }
